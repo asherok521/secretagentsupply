@@ -1,6 +1,14 @@
-html body {
+
+html {
   font-size: 18px;
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+
   width: 960px;
 }
 
@@ -8,6 +16,7 @@ header {
   font-size:1rem;
   color: white;
   background-color: black;
+  width: 100%;
   border: 1px solid red;
 }
 
@@ -31,6 +40,7 @@ header h2 {
   background-image: url("../images/moto.jpeg");
   background-repeat: no-repeat;
   height: 25rem;
+  width: 100%;
   border: 1px solid limegreen;
 }
 
@@ -39,6 +49,8 @@ header h2 {
   width: 20rem;
   color: white;
   font-weight: bold;
+  padding: 2rem 3rem;
+  margin-top: 9rem;
   border: 1px solid red;
 }
 
